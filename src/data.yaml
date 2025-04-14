@@ -1,0 +1,13 @@
+names:
+- License_Plate
+nc: 1
+
+dataset:
+  source: kaggle
+  project: VNLicensePlate
+  url: https://www.kaggle.com/datasets/bomaich/vnlicenseplate
+  version: 1.0.0
+
+train: ../dataset/train/images
+val: ../dataset/valid/images
+test: ../dataset/test/images

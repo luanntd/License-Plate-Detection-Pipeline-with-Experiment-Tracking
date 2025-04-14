@@ -46,9 +46,9 @@ with DAG(
     @task()
     def init_param_grid():
         return {
-            "freeze_layers": [10],
-            "epochs": [1],
-            "lr0": [0.1]
+            "freeze_layers": [10, 15],
+            "epochs": [5],
+            "lr0": [0.01, 0.1]
         }
 
     @task()

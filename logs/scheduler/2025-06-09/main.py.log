@@ -1,0 +1,235 @@
+[2025-06-09T08:51:12.703+0000] {processor.py:161} INFO - Started process (PID=193) to work on /opt/airflow/dags/main.py
+[2025-06-09T08:51:12.717+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T08:51:12.750+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:51:12.747+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T08:51:45.855+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:51:45.853+0000] {timeout.py:68} ERROR - Process timed out, PID: 193
+[2025-06-09T08:52:16.466+0000] {processor.py:161} INFO - Started process (PID=216) to work on /opt/airflow/dags/main.py
+[2025-06-09T08:52:16.469+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T08:52:16.478+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:52:16.476+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T08:52:23.221+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T08:52:23.250+0000] {logging_mixin.py:188} INFO - Creating new Ultralytics Settings v0.0.6 file ✅ 
+View Ultralytics Settings with 'yolo settings' or at '/tmp/Ultralytics/settings.json'
+Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/quickstart/#ultralytics-settings.
+[2025-06-09T08:52:23.546+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T08:52:23.852+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:52:23.851+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:lp_yolov8_pipeline
+[2025-06-09T08:52:23.866+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:52:23.866+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:lp_yolov8_pipeline
+[2025-06-09T08:52:23.877+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:52:23.877+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:lp_yolov8_pipeline
+[2025-06-09T08:52:23.878+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:52:23.878+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T08:52:23.895+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:52:23.895+0000] {dag.py:3118} INFO - Creating ORM DAG for lp_yolov8_pipeline
+[2025-06-09T08:52:23.910+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:52:23.909+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 08:52:23.516118+00:00, run_after=2025-06-09 09:22:23.516118+00:00
+[2025-06-09T08:52:23.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 7.498 seconds
+[2025-06-09T08:52:54.503+0000] {processor.py:161} INFO - Started process (PID=234) to work on /opt/airflow/dags/main.py
+[2025-06-09T08:52:54.505+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T08:52:54.509+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:52:54.508+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T08:52:59.212+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T08:52:59.300+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T08:52:59.650+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:52:59.649+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T08:52:59.683+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:52:59.683+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 08:52:59.293599+00:00, run_after=2025-06-09 09:22:59.293599+00:00
+[2025-06-09T08:52:59.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 5.224 seconds
+[2025-06-09T08:53:30.611+0000] {processor.py:161} INFO - Started process (PID=252) to work on /opt/airflow/dags/main.py
+[2025-06-09T08:53:30.613+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T08:53:30.619+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:53:30.618+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T08:53:34.919+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T08:53:34.971+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T08:53:35.296+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:53:35.295+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T08:53:35.333+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:53:35.333+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 08:53:34.966045+00:00, run_after=2025-06-09 09:23:34.966045+00:00
+[2025-06-09T08:53:35.369+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 4.781 seconds
+[2025-06-09T08:54:05.822+0000] {processor.py:161} INFO - Started process (PID=270) to work on /opt/airflow/dags/main.py
+[2025-06-09T08:54:05.824+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T08:54:05.831+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:54:05.831+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T08:54:10.539+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T08:54:10.582+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T08:54:10.676+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:54:10.676+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T08:54:10.696+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:54:10.696+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 08:54:10.577360+00:00, run_after=2025-06-09 09:24:10.577360+00:00
+[2025-06-09T08:54:10.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 4.142 seconds
+[2025-06-09T08:54:41.601+0000] {processor.py:161} INFO - Started process (PID=288) to work on /opt/airflow/dags/main.py
+[2025-06-09T08:54:41.603+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T08:54:41.605+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:54:41.605+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T08:54:46.598+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T08:54:46.712+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T08:54:47.044+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:54:47.043+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T08:54:47.076+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:54:47.075+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 08:54:46.703587+00:00, run_after=2025-06-09 09:24:46.703587+00:00
+[2025-06-09T08:54:47.110+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 5.516 seconds
+[2025-06-09T08:55:17.857+0000] {processor.py:161} INFO - Started process (PID=312) to work on /opt/airflow/dags/main.py
+[2025-06-09T08:55:17.859+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T08:55:17.863+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:55:17.862+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T08:55:22.121+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T08:55:22.181+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T08:55:22.492+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:55:22.491+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T08:55:22.539+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:55:22.538+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 08:55:22.174110+00:00, run_after=2025-06-09 09:25:22.174110+00:00
+[2025-06-09T08:55:22.577+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 4.728 seconds
+[2025-06-09T08:55:53.238+0000] {processor.py:161} INFO - Started process (PID=330) to work on /opt/airflow/dags/main.py
+[2025-06-09T08:55:53.239+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T08:55:53.243+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:55:53.243+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T08:55:58.368+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T08:55:58.439+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T08:55:58.571+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:55:58.570+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T08:55:58.599+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:55:58.598+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 08:55:58.430919+00:00, run_after=2025-06-09 09:25:58.430919+00:00
+[2025-06-09T08:55:58.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 5.415 seconds
+[2025-06-09T08:56:28.763+0000] {processor.py:161} INFO - Started process (PID=348) to work on /opt/airflow/dags/main.py
+[2025-06-09T08:56:28.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T08:56:28.767+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:56:28.767+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T08:56:32.712+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T08:56:32.765+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T08:56:32.992+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:56:32.991+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T08:56:33.009+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:56:33.009+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 08:56:32.760228+00:00, run_after=2025-06-09 09:26:32.760228+00:00
+[2025-06-09T08:56:33.035+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 4.278 seconds
+[2025-06-09T08:57:03.914+0000] {processor.py:161} INFO - Started process (PID=366) to work on /opt/airflow/dags/main.py
+[2025-06-09T08:57:03.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T08:57:03.919+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:57:03.918+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T08:57:07.747+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T08:57:07.800+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T08:57:08.103+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:57:08.102+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T08:57:08.122+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:57:08.122+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 08:57:07.791773+00:00, run_after=2025-06-09 09:27:07.791773+00:00
+[2025-06-09T08:57:08.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 4.242 seconds
+[2025-06-09T08:57:39.272+0000] {processor.py:161} INFO - Started process (PID=384) to work on /opt/airflow/dags/main.py
+[2025-06-09T08:57:39.274+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T08:57:39.281+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:57:39.280+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T08:57:44.830+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T08:57:44.883+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T08:57:44.988+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:57:44.988+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T08:57:45.008+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:57:45.007+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 08:57:44.877373+00:00, run_after=2025-06-09 09:27:44.877373+00:00
+[2025-06-09T08:57:45.034+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 5.023 seconds
+[2025-06-09T08:58:16.082+0000] {processor.py:161} INFO - Started process (PID=403) to work on /opt/airflow/dags/main.py
+[2025-06-09T08:58:16.084+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T08:58:16.086+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:58:16.086+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T08:58:20.182+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T08:58:20.229+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T08:58:20.357+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:58:20.356+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T08:58:20.389+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:58:20.389+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 08:58:20.222631+00:00, run_after=2025-06-09 09:28:20.222631+00:00
+[2025-06-09T08:58:20.598+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 4.522 seconds
+[2025-06-09T08:58:50.693+0000] {processor.py:161} INFO - Started process (PID=421) to work on /opt/airflow/dags/main.py
+[2025-06-09T08:58:50.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T08:58:50.697+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:58:50.696+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T08:58:56.047+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T08:58:56.157+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T08:58:56.643+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:58:56.642+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T08:58:56.666+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:58:56.666+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 08:58:56.146634+00:00, run_after=2025-06-09 09:28:56.146634+00:00
+[2025-06-09T08:58:56.690+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 6.004 seconds
+[2025-06-09T08:59:27.785+0000] {processor.py:161} INFO - Started process (PID=445) to work on /opt/airflow/dags/main.py
+[2025-06-09T08:59:27.787+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T08:59:27.789+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:59:27.789+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T08:59:32.161+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T08:59:32.288+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T08:59:32.539+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:59:32.539+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T08:59:32.563+0000] {logging_mixin.py:188} INFO - [2025-06-09T08:59:32.562+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 08:59:32.279772+00:00, run_after=2025-06-09 09:29:32.279772+00:00
+[2025-06-09T08:59:32.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 4.815 seconds
+[2025-06-09T09:00:02.830+0000] {processor.py:161} INFO - Started process (PID=463) to work on /opt/airflow/dags/main.py
+[2025-06-09T09:00:02.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T09:00:02.835+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:00:02.834+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T09:00:08.342+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T09:00:08.391+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T09:00:08.487+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:00:08.486+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T09:00:08.508+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:00:08.507+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 09:00:08.383555+00:00, run_after=2025-06-09 09:30:08.383555+00:00
+[2025-06-09T09:00:08.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 5.856 seconds
+[2025-06-09T09:00:38.797+0000] {processor.py:161} INFO - Started process (PID=481) to work on /opt/airflow/dags/main.py
+[2025-06-09T09:00:38.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T09:00:38.801+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:00:38.800+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T09:00:42.873+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T09:00:42.934+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T09:00:43.174+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:00:43.173+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T09:00:43.197+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:00:43.197+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 09:00:42.927637+00:00, run_after=2025-06-09 09:30:42.927637+00:00
+[2025-06-09T09:00:43.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 4.432 seconds
+[2025-06-09T09:01:13.341+0000] {processor.py:161} INFO - Started process (PID=499) to work on /opt/airflow/dags/main.py
+[2025-06-09T09:01:13.342+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T09:01:13.346+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:01:13.345+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T09:01:18.065+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T09:01:18.145+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T09:01:18.804+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:01:18.804+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T09:01:18.824+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:01:18.823+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 09:01:18.138487+00:00, run_after=2025-06-09 09:31:18.138487+00:00
+[2025-06-09T09:01:18.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 5.180 seconds
+[2025-06-09T09:01:49.734+0000] {processor.py:161} INFO - Started process (PID=517) to work on /opt/airflow/dags/main.py
+[2025-06-09T09:01:49.736+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T09:01:49.740+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:01:49.739+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T09:01:54.938+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T09:01:54.987+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T09:01:55.124+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:01:55.123+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T09:01:55.154+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:01:55.154+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 09:01:54.979346+00:00, run_after=2025-06-09 09:31:54.979346+00:00
+[2025-06-09T09:01:55.358+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 5.182 seconds
+[2025-06-09T09:02:26.417+0000] {processor.py:161} INFO - Started process (PID=535) to work on /opt/airflow/dags/main.py
+[2025-06-09T09:02:26.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T09:02:26.421+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:02:26.420+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T09:02:30.987+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T09:02:31.046+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T09:02:31.287+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:02:31.286+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T09:02:31.309+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:02:31.308+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 09:02:31.039900+00:00, run_after=2025-06-09 09:32:31.039900+00:00
+[2025-06-09T09:02:31.333+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 4.923 seconds
+[2025-06-09T09:03:02.415+0000] {processor.py:161} INFO - Started process (PID=559) to work on /opt/airflow/dags/main.py
+[2025-06-09T09:03:02.417+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T09:03:02.419+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:03:02.419+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T09:03:07.826+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T09:03:07.961+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T09:03:08.457+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:03:08.456+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T09:03:08.485+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:03:08.484+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 09:03:07.933748+00:00, run_after=2025-06-09 09:33:07.933748+00:00
+[2025-06-09T09:03:08.521+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 6.112 seconds
+[2025-06-09T09:03:39.495+0000] {processor.py:161} INFO - Started process (PID=577) to work on /opt/airflow/dags/main.py
+[2025-06-09T09:03:39.497+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T09:03:39.499+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:03:39.499+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T09:03:43.581+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T09:03:43.695+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T09:03:43.937+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:03:43.936+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T09:03:43.975+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:03:43.974+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 09:03:43.678627+00:00, run_after=2025-06-09 09:33:43.678627+00:00
+[2025-06-09T09:03:44.023+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 4.537 seconds
+[2025-06-09T09:04:14.620+0000] {processor.py:161} INFO - Started process (PID=595) to work on /opt/airflow/dags/main.py
+[2025-06-09T09:04:14.622+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T09:04:14.624+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:04:14.624+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T09:04:19.316+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T09:04:19.388+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T09:04:19.497+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:04:19.496+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T09:04:19.658+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:04:19.657+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 09:04:19.381817+00:00, run_after=2025-06-09 09:34:19.381817+00:00
+[2025-06-09T09:04:19.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 5.082 seconds
+[2025-06-09T09:04:49.862+0000] {processor.py:161} INFO - Started process (PID=613) to work on /opt/airflow/dags/main.py
+[2025-06-09T09:04:49.864+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T09:04:49.871+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:04:49.870+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T09:05:20.651+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:05:20.646+0000] {timeout.py:68} ERROR - Process timed out, PID: 613
+[2025-06-09T09:05:51.522+0000] {processor.py:161} INFO - Started process (PID=638) to work on /opt/airflow/dags/main.py
+[2025-06-09T09:05:51.528+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T09:05:51.560+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:05:51.554+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T09:06:05.765+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T09:06:06.491+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T09:06:07.099+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:06:07.098+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T09:06:07.155+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:06:07.154+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 09:06:06.384298+00:00, run_after=2025-06-09 09:36:06.384298+00:00
+[2025-06-09T09:06:07.522+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 15.307 seconds
+[2025-06-09T09:06:38.623+0000] {processor.py:161} INFO - Started process (PID=662) to work on /opt/airflow/dags/main.py
+[2025-06-09T09:06:38.626+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T09:06:38.633+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:06:38.632+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T09:06:58.566+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T09:06:58.732+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T09:06:59.463+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:06:59.461+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T09:06:59.745+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:06:59.744+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 09:06:58.720843+00:00, run_after=2025-06-09 09:36:58.720843+00:00
+[2025-06-09T09:06:59.990+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 20.603 seconds
+[2025-06-09T09:07:30.741+0000] {processor.py:161} INFO - Started process (PID=680) to work on /opt/airflow/dags/main.py
+[2025-06-09T09:07:30.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T09:07:30.765+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:07:30.764+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T09:07:43.137+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T09:07:43.224+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T09:07:43.622+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:07:43.622+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T09:07:43.649+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:07:43.649+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 09:07:43.204325+00:00, run_after=2025-06-09 09:37:43.204325+00:00
+[2025-06-09T09:07:43.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 12.984 seconds
+[2025-06-09T09:08:14.424+0000] {processor.py:161} INFO - Started process (PID=704) to work on /opt/airflow/dags/main.py
+[2025-06-09T09:08:14.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T09:08:14.453+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:08:14.452+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T09:08:27.958+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T09:08:28.119+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T09:08:28.297+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:08:28.296+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T09:08:28.563+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:08:28.341+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 09:08:28.096729+00:00, run_after=2025-06-09 09:38:28.096729+00:00
+[2025-06-09T09:08:28.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 14.280 seconds
+[2025-06-09T09:08:58.820+0000] {processor.py:161} INFO - Started process (PID=722) to work on /opt/airflow/dags/main.py
+[2025-06-09T09:08:58.823+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T09:08:58.827+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:08:58.826+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T09:09:10.135+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T09:09:10.221+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T09:09:10.514+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:09:10.513+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T09:09:10.535+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:09:10.534+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 09:09:10.211032+00:00, run_after=2025-06-09 09:39:10.211032+00:00
+[2025-06-09T09:09:10.561+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 10.965 seconds
+[2025-06-09T09:09:41.019+0000] {processor.py:161} INFO - Started process (PID=740) to work on /opt/airflow/dags/main.py
+[2025-06-09T09:09:41.027+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T09:09:41.039+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:09:41.037+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T09:10:11.837+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:10:11.831+0000] {timeout.py:68} ERROR - Process timed out, PID: 740
+[2025-06-09T09:10:43.195+0000] {processor.py:161} INFO - Started process (PID=764) to work on /opt/airflow/dags/main.py
+[2025-06-09T09:10:43.202+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-06-09T09:10:43.210+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:10:43.206+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-06-09T09:11:06.089+0000] {logging_mixin.py:188} INFO - WARNING ⚠️ user config directory '/home/airflow/.config/Ultralytics' is not writeable, defaulting to '/tmp' or CWD.Alternatively you can define a YOLO_CONFIG_DIR environment variable for this path.
+[2025-06-09T09:11:06.850+0000] {processor.py:840} INFO - DAG(s) 'lp_yolov8_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-06-09T09:11:08.171+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:11:08.169+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-06-09T09:11:08.514+0000] {logging_mixin.py:188} INFO - [2025-06-09T09:11:08.513+0000] {dag.py:3954} INFO - Setting next_dagrun for lp_yolov8_pipeline to 2025-06-09 09:11:06.806919+00:00, run_after=2025-06-09 09:41:06.806919+00:00
+[2025-06-09T09:11:08.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 24.762 seconds

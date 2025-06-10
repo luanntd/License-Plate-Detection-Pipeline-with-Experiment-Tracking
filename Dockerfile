@@ -1,4 +1,4 @@
-FROM apache/airflow:slim-latest-python3.10
+FROM apache/airflow:slim-2.9.2-python3.10
 
 COPY src src/
 
